@@ -3,7 +3,11 @@
     background: #000000;
     font-weight: 400;
     font-size: 32px;
+    
 }
+
+
+
 
 .logo{
     padding-top: 10px;
@@ -15,6 +19,8 @@ main{
     display: flex;
     margin-bottom: 50px;
     margin-left: 80px;
+    
+
 }
 
 .text-area{
@@ -23,7 +29,9 @@ main{
     color: rgb(0, 170, 255);
     text-transform: lowercase;
     resize: none;
+    font-family: 'Playfair', serif;
 }
+
 
 ::placeholder{ color:#01a2ff}
     .text-area:focus{
@@ -43,6 +51,7 @@ main{
    position: absolute;
    text-align:center;
     resize: none;
+    font-family: 'Playfair', serif;
 }
 
 .mensaje:focus{
@@ -65,6 +74,12 @@ main{
     border-radius: 10px;
     transition: 1s all;
     cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-encriptar:hover{
+    background: rgb(74, 2, 74);
+    transform: scale(1.2);
 }
 
 .btn-desencriptar{
@@ -78,9 +93,13 @@ main{
     border-radius: 10px;
     transition: 1s all;
     cursor: pointer;
-    
+    margin-left: 10px;
 }
 
+.btn-desencriptar:hover{
+    background: rgb(239, 0, 155);
+    transform: scale(1.2);
+}
 
 .copiar{
    border: 1px solid #0A3871;
@@ -88,11 +107,17 @@ main{
    color: #0172fd;
    cursor: pointer;
    height: 67px;
-   margin-left: 108px;
+   margin-left: 120px;
    margin-top: 402px;
    position: absolute;
+   transition: 1s all;
    width: 336px;
    transform: perspective(3em);
+}
+
+.copiar:hover{
+    background: #76113d;
+    transform: scale(1.1);
 }
 
 .informacion{
